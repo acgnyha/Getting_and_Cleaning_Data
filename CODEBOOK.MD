@@ -1,96 +1,96 @@
 
--Subject 
---* A number assigned to each subject between 1 and 30.
--Activity
---* Possible values for activity:
-	---WALKING           
-	---WALKING_UPSTAIRS  
-	---WALKING_DOWNSTAIRS     
-	---SITTING           
-	---STANDING          
-	---LAYING            
--tBodyAcc.mean...X	the mean of the mean  X -axis measurement for the measure tBodyA 
--tBodyAcc.mean...Y	the mean of the mean  measured for the Y-axis for the measure tBodyA 
--tBodyAcc.mean...Z	the mean of the mean  measured for the Z -axis for the measure tBodyA 
--tBodyAcc.std...X	the mean of the standard deviation measured for the X -axis for the measure tBodyA 
--tBodyAcc.std...Y	the mean of the standard deviation measured for the Y -axis for the measure tBodyA 
--tBodyAcc.std...Z	the mean of the standard deviation measured for the Z-axis for the measure tBodyA 
--tGravityAcc.mean...X	the mean of the mean  measured for the X-axis for the measure tGravityAcc 
--tGravityAcc.mean...Y	the mean of the mean  measured for the Y-axis for the measure tGravityAcc 
--tGravityAcc.mean...Z	the mean of the mean  measured for the Z-axis for the measure tGravityAcc 
--tGravityAcc.std...X	the mean of the standard deviation measured for the X-axis for the measure tGravityAcc 
--tGravityAcc.std...Y	the mean of the standard deviation measured for the Y-axis for the measure tGravityAcc 
--tGravityAcc.std...Z	the mean of the standard deviation measured for the Z-axis for the measure tGravityAcc 
--tBodyAccJerk.mean...X	the mean of the mean  measured for the X-axis for the measure tBodyAccJerk 
--tBodyAccJerk.mean...Y	the mean of the mean  measured for the Y-axis for the measure tBodyAccJerk 
--tBodyAccJerk.mean...Z	the mean of the mean  measured for the Z-axis for the measure tBodyAccJerk 
--tBodyAccJerk.std...X	the mean of the standard deviation measured for the X-axis for the measure tBodyAccJerk 
--tBodyAccJerk.std...Y	the mean of the standard deviation measured for the Y-axis for the measure tBodyAccJerk 
--tBodyAccJerk.std...Z	the mean of the standard deviation measured for the Z-axis for the measure tBodyAccJerk 
--tBodyGyro.mean...X	the mean of the mean  measured for the X-axis for the measure tBodyGyro 
--tBodyGyro.mean...Y	the mean of the mean  measured for the Y-axis for the measure tBodyGyro 
--tBodyGyro.mean...Z	the mean of the mean  measured for the Z-axis for the measure tBodyGyro 
--tBodyGyro.std...X	the mean of the standard deviation measured for the X-axis for the measure tBodyGyro 
--tBodyGyro.std...Y	the mean of the standard deviation measured for the Y-axis for the measure tBodyGyro 
--tBodyGyro.std...Z	the mean of the standard deviation measured for the Z-axis for the measure tBodyGyro 
--tBodyGyroJerk.mean...X	the mean of the mean  measured for the X-axis for the measure tBodyGyroJerk 
--tBodyGyroJerk.mean...Y	the mean of the mean  measured for the Y-axis for the measure tBodyGyroJerk 
--tBodyGyroJerk.mean...Z	the mean of the mean  measured for the Z-axis for the measure tBodyGyroJerk 
--tBodyGyroJerk.std...X	the mean of the standard deviation measured for the X-axis for the measure tBodyGyroJerk 
--tBodyGyroJerk.std...Y	the mean of the standard deviation measured for the Y-axis for the measure tBodyGyroJerk 
--tBodyGyroJerk.std...Z	the mean of the standard deviation measured for the Z-axis for the measure tBodyGyroJerk 
--tBodyAccMag.mean..	the mean of the mean  measured for tBodyAccMag 
--tBodyAccMag.std..	the mean of the standard deviation measured for tBodyAccMag 
--tGravityAccMag.mean..	the mean of the mean  measured for tGravityAccMag 
--tGravityAccMag.std..	the mean of the standard deviation measured for tGravityAccMag 
--tBodyAccJerkMag.mean..	the mean of the mean  measured for tBodyAccJerkMag 
--tBodyAccJerkMag.std..	the mean of the standard deviation measured for tBodyAccJerkMag
--tBodyGyroMag.mean..	the mean of the mean  measured for tBodyGyroMag 
--tBodyGyroMag.std..	the mean of the standard deviation measured for tBodyGyroMag  
--tBodyGyroJerkMag.mean..	the mean of the  mean  measured for tBodyGyroJerkMag
--tBodyGyroJerkMag.std..	the mean of the  standard deviation  measured for tBodyGyroJerkMag
--fBodyAcc.mean...X	the mean of the mean measured for the  X-axis for the measure fBodyAcc 
--fBodyAcc.mean...Y	the mean of the mean measured for the  Y-axis for the measure fBodyAcc 
--fBodyAcc.mean...Z	the mean of the mean measured for the  Z-axis for the measure fBodyAcc 
--fBodyAcc.std...X	the mean of the standard deviation measured for the X-axis for the measure fBodyAcc 
--fBodyAcc.std...Y	the mean of the standard deviation measured for the Y-axis for the measure fBodyAcc 
--fBodyAcc.std...Z	the mean of the standard deviation measured for the Z-axis for the measure fBodyAcc 
--fBodyAcc.meanFreq...X	the mean of the meanFreq measured for the  X-axis for the measure fBodyAcc 
--fBodyAcc.meanFreq...Y	the mean of the meanFreq measured for the  Y-axis for the measure fBodyAcc 
--fBodyAcc.meanFreq...Z	the mean of the meanFreq measured for the  Z-axis for the measure fBodyAcc 
--fBodyAccJerk.mean...X	the mean of the mean measured for the  X-axis for the measure fBodyAccJerk 
--fBodyAccJerk.mean...Y	the mean of the mean measured for the  Y-axis for the measure fBodyAccJerk 
--fBodyAccJerk.mean...Z	the mean of the mean measured for the  Z-axis for the measure fBodyAccJerk 
--fBodyAccJerk.std...X	the mean of the standard deviation measured for the X-axis for the measure fBodyAccJerk 
--fBodyAccJerk.std...Y	the mean of the standard deviation measured for the Y-axis for the measure fBodyAccJerk 
--fBodyAccJerk.std...Z	the mean of the standard deviation measured for the Z-axis for the measure fBodyAccJerk 
--fBodyAccJerk.meanFreq...X	the mean of the meanFreq measured for the  X-axis for the measure fBodyAccJerk 
--fBodyAccJerk.meanFreq...Y	the mean of the meanFreq measured for the  Y-axis for the measure fBodyAccJerk 
--fBodyAccJerk.meanFreq...Z	the mean of the meanFreq measured for the  Z-axis for the measure fBodyAccJerk 
--fBodyGyro.mean...X	the mean of the mean measured for the  X-axis for the measure fBodyGyro 
--fBodyGyro.mean...Y	the mean of the mean measured for the  Y-axis for the measure fBodyGyro 
--fBodyGyro.mean...Z	the mean of the mean measured for the  Z-axis for the measure fBodyGyro 
--fBodyGyro.std...X	the mean of the standard deviation measured for the X-axis for the measure fBodyGyro 
--fBodyGyro.std...Y	the mean of the standard deviation measured for the Y-axis for the measure fBodyGyro 
--fBodyGyro.std...Z	the mean of the standard deviation measured for the Z-axis for the measure fBodyGyro 
--fBodyGyro.meanFreq...X	the mean of the meanFreq measured for the  X-axis for the measure fBodyGyro 
--fBodyGyro.meanFreq...Y	the mean of the meanFreq measured for the  Y-axis for the measure fBodyGyro 
--fBodyGyro.meanFreq...Z	the mean of the meanFreq measured for the  Z-axis for the measure fBodyGyro 
--fBodyAccMag.mean..	the mean of the mean  measured for the measure fBodyAccMag 
--fBodyAccMag.std..	the mean of the standard deviation  measured for the measure fBodyAccMag 
--fBodyAccMag.meanFreq..	the mean of the meanFreq measured for the measure fBodyAccMag 
--fBodyBodyAccJerkMag.mean..	the mean of the mean  measured for the measure fBodyBodyAccJerkMag 
--fBodyBodyAccJerkMag.std..	the mean of the standard deviation  measured for the measure fBodyBodyAccJerkMag 
--fBodyBodyAccJerkMag.meanFreq..	the mean of the meanFreq measured for the measure fBodyBodyAccJerkMag 
--fBodyBodyGyroMag.mean..	the mean of the mean  measured for the measure fBodyBodyGyroMag 
--fBodyBodyGyroMag.std..	the mean of the standard deviation  measured for the measure fBodyBodyGyroMag 
--fBodyBodyGyroMag.meanFreq..	the mean of the meanFreq measured for the measure fBodyBodyGyroMag 
--fBodyBodyGyroJerkMag.mean..	the mean of the mean  measured for the measure fBodyBodyGyroJerkMag 
--fBodyBodyGyroJerkMag.std..	the mean of the standard deviation  measured for the measure fBodyBodyGyroJerkMag 
--fBodyBodyGyroJerkMag.meanFreq..	the mean of the meanFreq measured for the measure fBodyBodyGyroJerkMag 
--angle.tBodyAccMean.gravity	Additional vectors obtained by averaging the signals in a signal window sample
--angle.tBodyAccJerkMean..gravityMean	Additional vectors obtained by averaging the signals in a signal window sample
--angle.tBodyGyroJerkMean.gravityMean	Additional vectors obtained by averaging the signals in a signal window sample
--angle.X.gravityMean	Additional vectors obtained by averaging the signals in a signal window sample
--angle.Y.gravityMean	Additional vectors obtained by averaging the signals in a signal window sample
--angle.Z.gravityMean	Additional vectors obtained by averaging the signals in a signal window sample
+- Subject 
+-- A number assigned to each subject between 1 and 30.
+- Activity
+-- Possible values for activity:
+	- WALKING           
+	- WALKING_UPSTAIRS  
+	- WALKING_DOWNSTAIRS     
+	- SITTING           
+	- STANDING          
+	- LAYING            
+- tBodyAcc.mean...X	the mean of the mean  X -axis measurement for the measure tBodyA 
+- tBodyAcc.mean...Y	the mean of the mean  measured for the Y-axis for the measure tBodyA 
+- tBodyAcc.mean...Z	the mean of the mean  measured for the Z -axis for the measure tBodyA 
+- tBodyAcc.std...X	the mean of the standard deviation measured for the X -axis for the measure tBodyA 
+- tBodyAcc.std...Y	the mean of the standard deviation measured for the Y -axis for the measure tBodyA 
+- tBodyAcc.std...Z	the mean of the standard deviation measured for the Z-axis for the measure tBodyA 
+- tGravityAcc.mean...X	the mean of the mean  measured for the X-axis for the measure tGravityAcc 
+- tGravityAcc.mean...Y	the mean of the mean  measured for the Y-axis for the measure tGravityAcc 
+- tGravityAcc.mean...Z	the mean of the mean  measured for the Z-axis for the measure tGravityAcc 
+- tGravityAcc.std...X	the mean of the standard deviation measured for the X-axis for the measure tGravityAcc 
+- tGravityAcc.std...Y	the mean of the standard deviation measured for the Y-axis for the measure tGravityAcc 
+- tGravityAcc.std...Z	the mean of the standard deviation measured for the Z-axis for the measure tGravityAcc 
+- tBodyAccJerk.mean...X	the mean of the mean  measured for the X-axis for the measure tBodyAccJerk 
+- tBodyAccJerk.mean...Y	the mean of the mean  measured for the Y-axis for the measure tBodyAccJerk 
+- tBodyAccJerk.mean...Z	the mean of the mean  measured for the Z-axis for the measure tBodyAccJerk 
+- tBodyAccJerk.std...X	the mean of the standard deviation measured for the X-axis for the measure tBodyAccJerk 
+- tBodyAccJerk.std...Y	the mean of the standard deviation measured for the Y-axis for the measure tBodyAccJerk 
+- tBodyAccJerk.std...Z	the mean of the standard deviation measured for the Z-axis for the measure tBodyAccJerk 
+- tBodyGyro.mean...X	the mean of the mean  measured for the X-axis for the measure tBodyGyro 
+- tBodyGyro.mean...Y	the mean of the mean  measured for the Y-axis for the measure tBodyGyro 
+- tBodyGyro.mean...Z	the mean of the mean  measured for the Z-axis for the measure tBodyGyro 
+- tBodyGyro.std...X	the mean of the standard deviation measured for the X-axis for the measure tBodyGyro 
+- tBodyGyro.std...Y	the mean of the standard deviation measured for the Y-axis for the measure tBodyGyro 
+- tBodyGyro.std...Z	the mean of the standard deviation measured for the Z-axis for the measure tBodyGyro 
+- tBodyGyroJerk.mean...X	the mean of the mean  measured for the X-axis for the measure tBodyGyroJerk 
+- tBodyGyroJerk.mean...Y	the mean of the mean  measured for the Y-axis for the measure tBodyGyroJerk 
+- tBodyGyroJerk.mean...Z	the mean of the mean  measured for the Z-axis for the measure tBodyGyroJerk 
+- tBodyGyroJerk.std...X	the mean of the standard deviation measured for the X-axis for the measure tBodyGyroJerk 
+- tBodyGyroJerk.std...Y	the mean of the standard deviation measured for the Y-axis for the measure tBodyGyroJerk 
+- tBodyGyroJerk.std...Z	the mean of the standard deviation measured for the Z-axis for the measure tBodyGyroJerk 
+- tBodyAccMag.mean..	the mean of the mean  measured for tBodyAccMag 
+- tBodyAccMag.std..	the mean of the standard deviation measured for tBodyAccMag 
+- tGravityAccMag.mean..	the mean of the mean  measured for tGravityAccMag 
+- tGravityAccMag.std..	the mean of the standard deviation measured for tGravityAccMag 
+- tBodyAccJerkMag.mean..	the mean of the mean  measured for tBodyAccJerkMag 
+- tBodyAccJerkMag.std..	the mean of the standard deviation measured for tBodyAccJerkMag
+- tBodyGyroMag.mean..	the mean of the mean  measured for tBodyGyroMag 
+- tBodyGyroMag.std..	the mean of the standard deviation measured for tBodyGyroMag  
+- tBodyGyroJerkMag.mean..	the mean of the  mean  measured for tBodyGyroJerkMag
+- tBodyGyroJerkMag.std..	the mean of the  standard deviation  measured for tBodyGyroJerkMag
+- fBodyAcc.mean...X	the mean of the mean measured for the  X-axis for the measure fBodyAcc 
+- fBodyAcc.mean...Y	the mean of the mean measured for the  Y-axis for the measure fBodyAcc 
+- fBodyAcc.mean...Z	the mean of the mean measured for the  Z-axis for the measure fBodyAcc 
+- fBodyAcc.std...X	the mean of the standard deviation measured for the X-axis for the measure fBodyAcc 
+- fBodyAcc.std...Y	the mean of the standard deviation measured for the Y-axis for the measure fBodyAcc 
+- fBodyAcc.std...Z	the mean of the standard deviation measured for the Z-axis for the measure fBodyAcc 
+- fBodyAcc.meanFreq...X	the mean of the meanFreq measured for the  X-axis for the measure fBodyAcc 
+- fBodyAcc.meanFreq...Y	the mean of the meanFreq measured for the  Y-axis for the measure fBodyAcc 
+- fBodyAcc.meanFreq...Z	the mean of the meanFreq measured for the  Z-axis for the measure fBodyAcc 
+- fBodyAccJerk.mean...X	the mean of the mean measured for the  X-axis for the measure fBodyAccJerk 
+- fBodyAccJerk.mean...Y	the mean of the mean measured for the  Y-axis for the measure fBodyAccJerk 
+- fBodyAccJerk.mean...Z	the mean of the mean measured for the  Z-axis for the measure fBodyAccJerk 
+- fBodyAccJerk.std...X	the mean of the standard deviation measured for the X-axis for the measure fBodyAccJerk 
+- fBodyAccJerk.std...Y	the mean of the standard deviation measured for the Y-axis for the measure fBodyAccJerk 
+- fBodyAccJerk.std...Z	the mean of the standard deviation measured for the Z-axis for the measure fBodyAccJerk 
+- fBodyAccJerk.meanFreq...X	the mean of the meanFreq measured for the  X-axis for the measure fBodyAccJerk 
+- fBodyAccJerk.meanFreq...Y	the mean of the meanFreq measured for the  Y-axis for the measure fBodyAccJerk 
+- fBodyAccJerk.meanFreq...Z	the mean of the meanFreq measured for the  Z-axis for the measure fBodyAccJerk 
+- fBodyGyro.mean...X	the mean of the mean measured for the  X-axis for the measure fBodyGyro 
+- fBodyGyro.mean...Y	the mean of the mean measured for the  Y-axis for the measure fBodyGyro 
+- fBodyGyro.mean...Z	the mean of the mean measured for the  Z-axis for the measure fBodyGyro 
+- fBodyGyro.std...X	the mean of the standard deviation measured for the X-axis for the measure fBodyGyro 
+- fBodyGyro.std...Y	the mean of the standard deviation measured for the Y-axis for the measure fBodyGyro 
+- fBodyGyro.std...Z	the mean of the standard deviation measured for the Z-axis for the measure fBodyGyro 
+- fBodyGyro.meanFreq...X	the mean of the meanFreq measured for the  X-axis for the measure fBodyGyro 
+- fBodyGyro.meanFreq...Y	the mean of the meanFreq measured for the  Y-axis for the measure fBodyGyro 
+- fBodyGyro.meanFreq...Z	the mean of the meanFreq measured for the  Z-axis for the measure fBodyGyro 
+- fBodyAccMag.mean..	the mean of the mean  measured for the measure fBodyAccMag 
+- fBodyAccMag.std..	the mean of the standard deviation  measured for the measure fBodyAccMag 
+- fBodyAccMag.meanFreq..	the mean of the meanFreq measured for the measure fBodyAccMag 
+- fBodyBodyAccJerkMag.mean..	the mean of the mean  measured for the measure fBodyBodyAccJerkMag 
+- fBodyBodyAccJerkMag.std..	the mean of the standard deviation  measured for the measure fBodyBodyAccJerkMag 
+- fBodyBodyAccJerkMag.meanFreq..	the mean of the meanFreq measured for the measure fBodyBodyAccJerkMag 
+- fBodyBodyGyroMag.mean..	the mean of the mean  measured for the measure fBodyBodyGyroMag 
+- fBodyBodyGyroMag.std..	the mean of the standard deviation  measured for the measure fBodyBodyGyroMag 
+- fBodyBodyGyroMag.meanFreq..	the mean of the meanFreq measured for the measure fBodyBodyGyroMag 
+- fBodyBodyGyroJerkMag.mean..	the mean of the mean  measured for the measure fBodyBodyGyroJerkMag 
+- fBodyBodyGyroJerkMag.std..	the mean of the standard deviation  measured for the measure fBodyBodyGyroJerkMag 
+- fBodyBodyGyroJerkMag.meanFreq..	the mean of the meanFreq measured for the measure fBodyBodyGyroJerkMag 
+- angle.tBodyAccMean.gravity	Additional vectors obtained by averaging the signals in a signal window sample
+- angle.tBodyAccJerkMean..gravityMean	Additional vectors obtained by averaging the signals in a signal window sample
+- angle.tBodyGyroJerkMean.gravityMean	Additional vectors obtained by averaging the signals in a signal window sample
+- angle.X.gravityMean	Additional vectors obtained by averaging the signals in a signal window sample
+- angle.Y.gravityMean	Additional vectors obtained by averaging the signals in a signal window sample
+- angle.Z.gravityMean	Additional vectors obtained by averaging the signals in a signal window sample
