@@ -82,9 +82,8 @@ The code is organized as follows:
 	- fBodyGyroMag
 	- fBodyGyroJerkMag
 
-- Measures  
+- Measures - Measures collected for each Signal in the list above.
 
-	- Measures collected for each Signal in the list above.
 	- mean
 	- std
 	- meanFreq -  Weighted average of the frequency components to obtain a mean frequency
