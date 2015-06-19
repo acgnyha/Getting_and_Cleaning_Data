@@ -52,7 +52,7 @@ The code is organized as follows:
 - Subject 
 -- Assigned a number from 1 to 30
 
--Activity
+- Activity
 -- Possible values for activity:
      - WALKING           
      - WALKING_UPSTAIRS  
